@@ -19,5 +19,13 @@ namespace GitSample
             var result = calc.Subtract(7, 4);
             Assert.Equal(3, result);
         }
+
+        [Fact]
+        public void Multiply_3_and_4_Results_12()
+        {
+            var calc = new Calculator();
+            var result = calc.Multiply(3, 4);
+            Assert.Equal(12, result);
+        }
     }
 }
