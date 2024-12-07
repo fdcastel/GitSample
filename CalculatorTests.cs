@@ -11,5 +11,13 @@ namespace GitSample
 
             Assert.Equal(7, result);
         }
+
+        [Fact]
+        public void Subtract_4_from_7_Results_3()
+        {
+            var calc = new Calculator();
+            var result = calc.Subtract(7, 4);
+            Assert.Equal(3, result);
+        }
     }
 }
