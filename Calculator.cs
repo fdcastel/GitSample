@@ -20,10 +20,6 @@ namespace GitSample
             return a - b;
         }
 
-
-
-
-
         // Multiply Two Numbers
         public int Multiply(int a, int b)
         {
