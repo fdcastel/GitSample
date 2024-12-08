@@ -8,7 +8,7 @@ namespace GitSample
 {
     internal class Calculator
     {
-        // Add Two Numbers
+        // Add Two Numbers.
         public int Add(int a, int b)
         {
             return a + b;
@@ -20,7 +20,7 @@ namespace GitSample
             return a - b;
         }
 
-        // Multiply Two Numbers
+        // Multiply Two Numbers.
         public int Multiply(int a, int b)
         {
             return a * b;
