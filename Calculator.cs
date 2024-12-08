@@ -14,7 +14,7 @@ namespace GitSample
             return a + b;
         }
 
-        // Subtract Two Numbers.
+        // Subtract Two Numbers
         public int Subtract(int a, int b)
         {
             return a - b;
